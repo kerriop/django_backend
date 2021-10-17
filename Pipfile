@@ -8,6 +8,7 @@ django = "*"
 djangorestframework = "*"
 coverage = "*"
 psycopg2 = "*"
+social-auth-app-django = "*"
 
 [dev-packages]
 
