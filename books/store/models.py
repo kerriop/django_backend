@@ -14,3 +14,13 @@ class Book(models.Model):
         return f'ID {self.id}: {self.name}'
 
 
+class UserBookRelation(models.Model):
+    RATE_CHOISES = (
+        
+    )
+
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    book = models.ForeignKey(Book, on_delete=models.CASCADE)
+    like = models.BooleanField(default=False)
+    in_bookmarks = models.BooleanField(default=False)
+    rate = models.PositiveSmallIntegerField()
