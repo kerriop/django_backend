@@ -9,6 +9,7 @@ djangorestframework = "*"
 coverage = "*"
 psycopg2 = "*"
 social-auth-app-django = "*"
+django-filter = "*"
 
 [dev-packages]
 
