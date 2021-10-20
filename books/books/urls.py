@@ -20,6 +20,8 @@ from rest_framework.routers import SimpleRouter
 
 from store.views import BookViewSet, auth, UserBooksRelationView
 
+import debug_toolbar
+
 router = SimpleRouter()
 
 router.register(r'book', BookViewSet)
@@ -29,6 +31,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     url('', include('social_django.urls', namespace='social')),
     path('auth/', auth),
+    path('__debug__/', include(debug_toolbar.urls)),
 ]
 
 urlpatterns += router.urls

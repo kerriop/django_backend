@@ -10,6 +10,8 @@ coverage = "*"
 psycopg2 = "*"
 social-auth-app-django = "*"
 django-filter = "*"
+django-debug-toolbar = "*"
+django-debug-toolbar-force = "*"
 
 [dev-packages]
 
