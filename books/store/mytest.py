@@ -14,4 +14,6 @@ def BinarySearch(lys, val):
     return index
 
 
-print(BinarySearch([10, 20, 30, 40, 50], 20))
+# print(BinarySearch([10, 20, 30, 40, 50], 20))
+
+dic = {'rating': 4.666666666666667}
