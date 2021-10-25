@@ -12,6 +12,7 @@ social-auth-app-django = "*"
 django-filter = "*"
 django-debug-toolbar = "*"
 django-debug-toolbar-force = "*"
+environ = "*"
 
 [dev-packages]
 
