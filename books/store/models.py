@@ -16,6 +16,9 @@ class Book(models.Model):
     def __str__(self):
         return f'ID {self.id}: {self.name}'
 
+    # class Meta:
+    #     indexes = models.Index(fields='')
+
 
 class UserBookRelation(models.Model):
     RATE_CHOICES = (
